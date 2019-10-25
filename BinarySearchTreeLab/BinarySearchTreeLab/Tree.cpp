@@ -15,6 +15,7 @@ void Tree::insertNode(int d)
 	}
 	else
 	{
+		//Break is necessary in while(true) beacuse otherwise it would result in infinite loop
 		while (true)
 		{
 			if (d < current->data)
