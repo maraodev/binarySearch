@@ -6,8 +6,8 @@ int main()
 	int condition = 0;
 	while (condition != 8)
 	{
-		//you can optimize it using switch case statements
-		//Main Menu 
+		//close the headers
+		//add the code cout<<"This is the final output";
 		cout << "============================================Menu============================================== " << endl << endl;
 		cout << "\t\t\t\tPress 1 to ADD a node " << endl;
 		cout << "\t\t\t\tPress 2 to DELETE a node " << endl;
