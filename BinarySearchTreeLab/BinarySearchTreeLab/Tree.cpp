@@ -6,7 +6,8 @@ Tree::Tree()
 }
 void Tree::insertNode(int d)
 {
-
+	//These pointers taking so much spacer in heap
+	//Reduce this by adding demo variables 
 	Node* temp = new Node(d);
 	Node * current = root;
 	if (root == nullptr)
